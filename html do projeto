@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homem-Aranha - Miles Morales</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <div class="city">
+        <img src="C:\Users\luiz.martins\Desktop\NF\city spider.jpg" alt="Miles Morales" class="city-image" />
+    </div>
+    <div class="spider-man">
+      <img src="C:\Users\luiz.martins\Desktop\NF\miles.jpg" alt="Miles Morales" class="spider-man-image" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
