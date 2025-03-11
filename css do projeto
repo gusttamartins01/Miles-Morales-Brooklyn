@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #2e3b55, #1f2534);
+    animation: backgroundAnimation 5s infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: linear-gradient(to bottom, #2e3b55, #1f2534);
+    }
+    100% {
+      background: linear-gradient(to bottom, #1f2534, #2e3b55);
+    }
+  }
+  
+  .spider-man {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moveSpiderMan 10s ease-in-out infinite;
+  }
+
+ 
+  
+  .spider-man-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+
+    
+  .city-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:url'C:\Users\luiz.martins\Desktop\NF\city spider.jpg';
+  background-size: cover; /* A imagem vai cobrir toda a tela */
+  background-position: center; /* A imagem será centralizada */
+  animation: moveCity 10s linear infinite;
+  }
+   
+  
+  @keyframes moveSpiderMan {
+    0% {
+      transform: translateX(-50%) translateY(0);
+    }
+    25% {
+      transform: translateX(-50%) translateY(-30px);
+    }
+    50% {
+      transform: translateX(-50%) translateY(0);
+    }
+    75% {
+      transform: translateX(-50%) translateY(30px);
+    }
+    100% {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  
