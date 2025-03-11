@@ -1,0 +1,10 @@
+const spiderMan = document.querySelector('.spider-man');
+
+document.addEventListener('mousemove', (e) => {
+  const mouseX = e.clientX;
+  const mouseY = e.clientY;
+  
+  // Movendo o Homem-Aranha com o mouse
+  spiderMan.style.left = `${mouseX - 50}px`;
+  spiderMan.style.top = `${mouseY - 50}px`;
+});
